@@ -405,7 +405,7 @@ button {
 }
 
 .faq-input:checked~.faq-title {
-    border-bottom: 3px solid #616161;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);;
     border-radius: 2px;
 }
 
