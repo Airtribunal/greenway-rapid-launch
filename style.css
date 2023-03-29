@@ -79,7 +79,7 @@ button {
 .header-title {
     margin: 1em 0;
     font-weight: 900;
-    font-size: 2.1rem;
+    font-size: calc(var(--index) * 2.35);
     line-height: 48px;
     text-transform: uppercase;
 
@@ -343,7 +343,6 @@ button {
     height: .75rem;
     border-radius: 50%;
     background-color: #a82424;
-    opacity: .5;
     transition: opacity ease 250ms;
 }
 
@@ -367,7 +366,7 @@ button {
 
 .faq-title {
     display: block;
-    padding: 10px 15px;
+    padding: 10px;
     position: relative;
 
     color: #c03f41;
@@ -389,7 +388,7 @@ button {
 
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 5px;
 
     transform: translateY(-50%);
 }
@@ -405,7 +404,8 @@ button {
 }
 
 .faq-input:checked~.faq-title {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    ;
     border-radius: 2px;
 }
 
@@ -462,6 +462,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
     padding: 3rem 0 2rem 0;
 
